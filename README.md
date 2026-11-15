@@ -30,17 +30,13 @@ All versions and checksums are on the [Agama Wallet release page](https://github
 
 ## Agama Wallet guides
 
-Agama Wallet is a self-custody desktop wallet for the Komodo ecosystem, with atomic swaps built in and builds for Windows, macOS and Linux. This repository is its GitHub page and its guide index: the pages here cover what the wallet is, how to install and verify version 0.3.7, how to get your keys back when something has gone wrong, and how to read the parts of its history people still ask about.
+Agama Wallet is a self-custody desktop wallet for the Komodo ecosystem with atomic swaps built in, on Windows, macOS and Linux. This repository is its GitHub page and guide index: install and verify 0.3.7, recover your keys, and read the history people still ask about.
 
-Four questions bring most readers here. Can I check the file before I run it - yes, the release prints a SHA-256 value beside every asset, and comparing one takes a minute. Why does a restored wallet show nothing - usually a phrase restored into the wrong product, a derivation range that was not scanned, or a node that has not caught up. Is this the wallet that was discontinued - there were two products under the name, and one of them stopped in 2019. Which one am I holding - a version number and an install path answer that faster than any description.
+Four questions bring most readers here. Can I check the file first - yes, the release prints a SHA-256 beside every asset. Why does a restored wallet show nothing - usually the wrong product, an unscanned derivation range, or a node not yet caught up. Was this discontinued - two products shared the name; one stopped in 2019. Which am I holding - a version number and an install path answer that fastest.
 
-Every guide stands on its own, so a reader arriving from a search result does not have to read the repository in order. Where a claim rests on the project rather than on something observable, the page says so, and where the honest answer is that no public record exists, that is the answer given.
+Every guide stands alone, and claims that rest on the project rather than on something observable say so. Two habits run through the set: verify the download against the published hash, and treat the recovery phrase as the wallet - nobody needs it to help you, anyone who asks is taking it.
 
-The pages are deliberately narrow. A guide about a zero balance does not re-explain the wallet, and a page about fees does not sell the product; each answers the question in its title and links out when a neighbouring page answers the next one.
-
-Two habits run through the whole set. The first is verification: a hash value beside each download, and a minute spent comparing it. The second is that the recovery phrase is the wallet. Nobody needs it to help you, and anyone who asks for it is taking it.
-
-The swap mechanics and the ledger model have repositories of their own - atomic swaps and UTXOs, linked below - and those pages are as useful to someone trading in another wallet as to someone using this one. Start with the download guide, then the restore guide, before you need it.
+Swap mechanics and the ledger model live in their own repositories, linked below. Start with the download guide, then the restore guide before you need it.
 
 ---
 
@@ -70,8 +66,6 @@ The swap mechanics and the ledger model have repositories of their own - atomic 
 | [Agama Wallet: What It Is, and Which Agama You Are Looking At](https://github.com/agama-wallet/agama-wallet/blob/main/which-version-you-have.md) | the two products behind one name, and how to tell which you installed |
 | [Is Agama Wallet Safe? What Can and Cannot Be Verified](https://github.com/agama-wallet/agama-wallet/blob/main/is-it-safe-to-use.md) | what the licence, the source and the release values can and cannot prove |
 | [Which Assets Agama Wallet Supports](https://github.com/agama-wallet/agama-wallet/blob/main/supported-coins.md) | the assets the wallet lists, and the token that depends on another chain |
-| [Native Mode vs SPV Mode in Agama Wallet](https://github.com/agama-wallet/agama-wallet/blob/main/native-versus-spv-mode.md) | local validation against remote servers, and what each costs |
-| [Updating Agama Wallet: What to Expect](https://github.com/agama-wallet/agama-wallet/blob/main/how-updates-work.md) | installing over the old build, and what a version number does not tell you |
 
 </div>
 
@@ -83,10 +77,8 @@ The swap mechanics and the ledger model have repositories of their own - atomic 
 |---|---|
 | [Restoring an Agama Wallet: Seed, Passphrase and Wallet File](https://github.com/agama-wallet/agama-wallet/blob/main/restore-from-seed-phrase.md) | the restore flow, and why a phrase is the only route back |
 | [Why a Seed Phrase Fails to Restore a Wallet](https://github.com/agama-wallet/agama-wallet/blob/main/why-a-seed-phrase-fails.md) | word order, derivation rules and scan ranges, in that order |
-| [Agama Wallet Backup: What wallet.dat Covers](https://github.com/agama-wallet/agama-wallet/blob/main/backup-what-dat-covers.md) | what the wallet file holds, and what it misses |
 | [Agama Wallet Shows Zero Balance: Causes and Checks](https://github.com/agama-wallet/agama-wallet/blob/main/zero-balance-after-restore.md) | four causes in the order worth checking, cheapest first |
-| [Moving KMD Out of an Old Agama Wallet](https://github.com/agama-wallet/agama-wallet/blob/main/move-kmd-out-safely.md) | restoring keys in working software, then sending to a wallet you control |
-| [Is Agama Wallet Discontinued? Two Products, One Name](https://github.com/agama-wallet/agama-wallet/blob/main/two-products-one-name.md) | what Komodo discontinued in 2019, and what runs under the name now |
+| [Agama Wallet Backup: What wallet.dat Covers](https://github.com/agama-wallet/agama-wallet/blob/main/backup-what-dat-covers.md) | what the wallet file holds, and what it misses |
 
 </div>
 
